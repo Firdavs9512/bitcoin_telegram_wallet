@@ -4,6 +4,8 @@ from config import database
 class User:
     def __init__(self):
         self.connect = sqlite3.connect(database)
+        m = Migrate()
+        m.create_users_table
 
     def get_user(self,name):
         c = self.connect.cursor()
