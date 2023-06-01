@@ -22,6 +22,11 @@ cd bitcoin_telegram_wallet
 
 2. Install the required dependencies:
 
+For linux install this:
+```bash
+sudo apt install -y postgresql postgresql-contrib mysql-server libpq-dev libmysqlclient-dev
+```
+Install all requiremenst
 ```bash
 pip install -r requirements.txt
 ```
